@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Special Elite';
+}
+
+div{
+    color: #000, #fff;
+}
+
+h2, h3, h4{
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    line-height: 1.25;
+}
+
+br{
+    margin-bottom: 0.5rem;
+}
+
+.text-box{
+    display: inline-block;
+    width: 50%;
+}
+
+/* ----- HEADER ----- */
+
+.header{
+    background-image: url(../img/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50vw;
+    vertical-align: middle;
+}
+
+.header img{
+    height: 20vw;
+    margin-top: 18vw;
+    position: static;
+}
+
+nav{
+    padding: 25px;
+    background-color: white;
+    text-align: right;
+    position: fixed;
+    width: 100%
+}
+
+nav li{
+    display: inline;
+
+}
+
+nav a{
+    padding-left: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* ----- HELLO ----- */
+
+#hello{
+    background-image: url(../img/beans_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding: 60px;
+}
+
+#hello p{
+    width: 50vw;
+}
+
+/* ----- MENU ----- */
+
+#menu{
+    background-image: url(../img/cake_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    text-align: center;
+    padding: 60px;
+}
+
+figure{
+    margin: 20px;
+}
+
+figure a{
+    text-decoration: none;
+    color: #000;
+}
+
+figure a:hover{
+    text-decoration: underline;
+}
+
+figure img{
+    width: 50px;
+    margin-left: auto;
+}
+
+.menu-box {
+    border: solid black 1px;
+    padding: 20px;
+    width: 40vw;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-box:last-of-type {
+margin-bottom: 2rem;
+}
+
+/* ----- STORY ----- */
+
+#story{
+    padding: 60px;
+    text-align: center;
+}
+
+#story article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: left;
+}
+
+#story p{
+    display: inline-block;
+}
+
+#story img{
+width: 40%;
+float: bottom;
+margin-left: 60px;
+}
+
+/* ----- CATERING & CAKES----- */
+
+#catering{
+    background-image: url(../img/pie_icon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    padding: 80px;
+    text-align: center;
+}
+
+#cakes{
+    background-image: url(../img/muffin_icon.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 28%;
+    padding: 80px;
+    text-align: center;
+}
+
+#catering article, #cakes article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: left;
+}
+
+#catering h2, #cakes h2{
+    font-size: 1.5rem;
+}
+
+#catering a, #cakes a {
+    display: inline-block;
+    border: solid grey 1px;
+    padding: 5px;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+#catering a:hover, #cakes a:hover{
+    text-decoration: underline;
+}
+
+#catering img, #cakes img{
+    width: 40%;
+    float: bottom;
+    margin-right: 60px;
+}
+
+/* ----- ZWISCHENBILDER ----- */
+
+#after-hello{
+    background-image: url(../img/bridge_1.jpg);
+}
+
+#after-menu{
+    background-image: url(../img/bridge_2.jpg);
+}
+
+#after-story{
+    background-image: url(../img/bridge_3.jpg);
+}
+
+#after-catering{
+    background-image: url(../img/bridge_4.jpeg);
+}
+
+#after-hello, #after-menu, #after-story, #after-catering{
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-attachment: fixed;
+}
+
+/* ----- CONTACT ----- */
+
+#contact{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#contact a img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 35px;
+}
+
+#contact a:last-of-type img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80px;
+    padding-bottom: 2rem;
+}
